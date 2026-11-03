@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-roxoFundo text-purple-100 font-sans relative overflow-x-hidden selection:bg-fuchsia-500 selection:text-white;
+  }
+}
